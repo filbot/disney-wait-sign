@@ -10,6 +10,8 @@
 
 body {
 	background-color: #d9a888;
+	width: 100vw;
+	height: 100vh;
 }
 
 header {
@@ -56,11 +58,26 @@ header {
 .attractions-header-container {
 	display: flex;
     justify-content: space-between;
-    margin: 0 2rem;
+    padding: 0 2rem;
     color: white;
 	font-family: 'Mouse', Fallback, sans-serif;
-	font-size: 6rem;
 	color: #2a523d;
+
+	box-shadow: 0px 11px 27px -4px rgba(0,0,0,0.35);
+}
+
+.attraction-header-title {
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.attraction-header-title .title-text {
+	font-size: 5rem;
+}
+
+.attraction-header-title .flourish img {
+	width: 50px;
 }
 
 .attraction-header-subtitle {
