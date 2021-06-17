@@ -60,7 +60,7 @@ header {
     justify-content: space-between;
     padding: 0 2rem;
     color: white;
-	font-family: 'Mouse', Fallback, sans-serif;
+	font-family: 'BarcelonaBold';
 	color: #2a523d;
 
 	box-shadow: 0px 11px 27px -4px rgba(0,0,0,0.35);
@@ -73,7 +73,7 @@ header {
 }
 
 .attraction-header-title .title-text {
-	font-size: 5rem;
+	font-size: 3rem;
 }
 
 .attraction-header-title .flourish img {
