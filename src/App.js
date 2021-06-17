@@ -12,7 +12,7 @@ function App() {
     const getApiData = async () => {
       const response = await fetch('https://cors-anywhere.herokuapp.com/https://api.themeparks.wiki/preview/parks/DisneylandResortMagicKingdom/waittime');
       const responseJson = await response.json();
-      setAttractions(JSON.stringify(responseJson));
+      setAttractions(responseJson);
     }
 
     getApiData();
@@ -23,8 +23,11 @@ function App() {
       <Header />
       <ParkHours />
       <AttractionsHeader />
-      <Attraction />
-      <div id="data">{attractions}</div>
+      {attractions.map((attraction) => {
+          if(attraction.meta.type === 'ATTRACTION' && attraction.waitTime !== null) {
+            return <Attraction key={attraction.id} name={attraction.name} time={attraction.waitTime} />
+          }
+      })}
     </div>
   );
 }
