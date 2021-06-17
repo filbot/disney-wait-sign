@@ -23,15 +23,25 @@ header {
 }
 
 .park-hours-container {
+    padding: 1rem 1rem;
+    box-shadow: 0px 11px 27px -4px rgba(0,0,0,0.35);
+    color:  #fff;
+    font-family: 'BarcelonaBold';
+}
+
+.park-hours-container .green-container {
+	height: 104px;
+	background-image: url(./green-box-light.png);
+	background-size: contain;
+	background-repeat: no-repeat;
 	display: flex;
     justify-content: space-between;
+    padding: 0 3rem;
     align-items: center;
-    padding: 0 2rem;
-    color: white;
-    font-size: 2rem;
-    font-family: 'BarcelonaBold', Fallback, sans-serif;
+}
 
-    box-shadow: 0px 11px 27px -4px rgba(0,0,0,0.35);
+.park-hours-container .title {
+	font-size: 3rem;
 }
 
 .attractions-header-container {
@@ -40,7 +50,7 @@ header {
     margin: 0 2rem;
     color: white;
 	font-family: 'Mouse', Fallback, sans-serif;
-	font-size: 4rem;
+	font-size: 6rem;
 	color: #2a523d;
 }
 
@@ -49,4 +59,5 @@ header {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+	align-items: center;
 }
