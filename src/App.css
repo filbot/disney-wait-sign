@@ -74,6 +74,7 @@ header {
 
 .attraction-header-title .title-text {
 	font-size: 3rem;
+	margin: 0 0.5rem;
 }
 
 .attraction-header-title .flourish img {
