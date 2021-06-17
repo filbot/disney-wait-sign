@@ -85,7 +85,7 @@ header {
 	font-size: 2rem;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 }
 
@@ -124,6 +124,11 @@ header {
     align-items: center;
 }
 
+.attraction-container .time {
+	line-height: 1.5rem;
+}
+
 .attraction-container .time-text {
 	font-size: 1rem;
+	line-height: 1.5rem;
 }
