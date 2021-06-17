@@ -10,7 +10,7 @@ function App() {
 
   useEffect(() => {
     const getApiData = async () => {
-      const response = await fetch('https://cat-fact.herokuapp.com/facts');
+      const response = await fetch('https://api.themeparks.wiki/preview/parks/DisneylandResortMagicKingdom/waittime');
       const responseJson = await response.json();
       setAttractions(JSON.stringify(responseJson));
     }
