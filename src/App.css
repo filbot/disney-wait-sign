@@ -3,6 +3,11 @@
   src: url('startedbyamouse.ttf')  format('truetype')
 }
 
+@font-face {
+  font-family: 'BarcelonaBold';
+  src: url('BarcelonaBold.ttf')  format('truetype')
+}
+
 body {
 	background-color: #d9a888;
 }
@@ -12,6 +17,7 @@ header {
 	font-size: 10rem;
 	text-align: center;
 	color: #2a523d;
+	line-height: normal;
 
 	box-shadow: 0px 11px 27px -4px rgba(0,0,0,0.35);
 }
@@ -19,9 +25,13 @@ header {
 .park-hours-container {
 	display: flex;
     justify-content: space-between;
-    margin: 0 2rem;
+    align-items: center;
+    padding: 0 2rem;
     color: white;
     font-size: 2rem;
+    font-family: 'BarcelonaBold', Fallback, sans-serif;
+
+    box-shadow: 0px 11px 27px -4px rgba(0,0,0,0.35);
 }
 
 .attractions-header-container {
