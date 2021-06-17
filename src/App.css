@@ -40,6 +40,15 @@ header {
     align-items: center;
 }
 
+.time-container {
+	font-size: 2rem;
+    line-height: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .park-hours-container .title {
 	font-size: 3rem;
 }
