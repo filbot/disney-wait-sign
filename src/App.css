@@ -56,6 +56,7 @@ header {
 }
 
 .attractions-header-container {
+	height: 5rem;
 	display: flex;
     justify-content: space-between;
     padding: 0 2rem;
@@ -73,7 +74,7 @@ header {
 }
 
 .attraction-header-title .title-text {
-	font-size: 3rem;
+	font-size: 2.75rem;
 	margin: 0 0.5rem;
 }
 
@@ -87,6 +88,11 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.attraction-header-subtitle .top,
+.attraction-header-subtitle .bottom {
+	line-height: 1.75rem;
 }
 
 .attraction-container {
