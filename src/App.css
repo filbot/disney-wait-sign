@@ -104,13 +104,20 @@ header {
 
 .attraction-container .green-container {
 	height: 104px;
-	background-image: url(./green-box-dark.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	display: flex;
     justify-content: space-between;
     padding: 0 3rem;
     align-items: center;
+}
+
+.attraction-container .green-container.light {
+	background-image: url(./green-box-light.png);
+}
+
+.attraction-container .green-container.dark {
+	background-image: url(./green-box-dark.png);
 }
 
 .attraction-container .attraction-title {

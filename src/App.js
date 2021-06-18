@@ -18,12 +18,18 @@ function App() {
     getApiData();
   }, []);
 
+  // alternating attraction background colors array
+  const backgroundColors = ['light', 'dark'];
+
   return (
     <div className="App">
       <Header />
       <ParkHours />
       <AttractionsHeader />
-      {attractions.filter(attraction => attraction.waitTime && attraction.meta.type === 'ATTRACTION').map((attraction) => <Attraction key={attraction.id} name={attraction.name} time={attraction.waitTime} />)}
+      {attractions
+        .filter(attraction => attraction.waitTime && attraction.meta.type === 'ATTRACTION')
+        .map((attraction, index) => <Attraction key={attraction.id} name={attraction.name} time={attraction.waitTime} color={backgroundColors[index % backgroundColors.length]} />)
+      }
     </div>
   );
 }
