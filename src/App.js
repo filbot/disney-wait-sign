@@ -23,11 +23,7 @@ function App() {
       <Header />
       <ParkHours />
       <AttractionsHeader />
-      {attractions.map((attraction) => {
-          if(attraction.meta.type === 'ATTRACTION' && attraction.waitTime !== null) {
-            return <Attraction key={attraction.id} name={attraction.name} time={attraction.waitTime} />
-          }
-      })}
+      {attractions.filter(attraction => attraction.waitTime && attraction.meta.type === 'ATTRACTION').map((attraction) => <Attraction key={attraction.id} name={attraction.name} time={attraction.waitTime} />)}
     </div>
   );
 }
