@@ -1,11 +1,11 @@
-const ParkHours = () => {
+const ParkHours = ({hours}) => {
 	return (
 		<div className="park-hours-container">
 			<div className="green-container">
 				<div className="title">Park Hours</div>
 				<div className="time-container">
-					<div className="top-time">8:00am</div>
-					<div className="bottom-time">11:00pm</div>
+					<div className="top-time">{hours.opening}</div>
+					<div className="bottom-time">{hours.closing}</div>
 				</div>
 			</div>
 		</div>
