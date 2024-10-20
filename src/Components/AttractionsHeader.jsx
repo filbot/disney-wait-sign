@@ -1,5 +1,5 @@
-import flourishLeft from '../flourish-left.png';
-import flourishRight from '../flourish-right.png';
+import flourishLeft from '../assets/flourish-left.png';
+import flourishRight from '../assets/flourish-right.png';
 
 const AttractionsHeader = () => {
 	return (

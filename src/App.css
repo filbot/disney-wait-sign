@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Mouse';
-  src: url('startedbyamouse.ttf')  format('truetype')
+  src: url('./assets/startedbyamouse.ttf')  format('truetype')
 }
 
 @font-face {
   font-family: 'BarcelonaBold';
-  src: url('BarcelonaBold.ttf')  format('truetype')
+  src: url('./assets/BarcelonaBold.ttf')  format('truetype')
 }
 
 body {
@@ -33,7 +33,7 @@ header {
 
 .park-hours-container .green-container {
 	height: 104px;
-	background-image: url(./green-box-light.png);
+	background-image: url(./assets/green-box-light.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	display: flex;
@@ -113,11 +113,11 @@ header {
 }
 
 .attraction-container .green-container.light {
-	background-image: url(./green-box-light.png);
+	background-image: url(./assets/green-box-light.png);
 }
 
 .attraction-container .green-container.dark {
-	background-image: url(./green-box-dark.png);
+	background-image: url(./assets/green-box-dark.png);
 }
 
 .attraction-container .attraction-title {

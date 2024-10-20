@@ -1,0 +1,804 @@
+[
+    {
+      "date": "2024-10-19",
+      "type": "Operating",
+      "purchases": [
+        {
+          "id": "lightninglanemultipass_330339",
+          "name": "Lightning Lane Multi Pass",
+          "type": "PACKAGE",
+          "price": {
+            "amount": 3600,
+            "currency": "USD",
+            "formatted": "$36.00"
+          }
+        }
+      ],
+      "closingTime": "2024-10-20T00:00:00-07:00",
+      "openingTime": "2024-10-19T08:00:00-07:00",
+      "special": [
+        {
+          "date": "2024-10-19",
+          "type": "TICKETED_EVENT",
+          "closingTime": "2024-10-19T08:00:00-07:00",
+          "description": "Early Entry",
+          "openingTime": "2024-10-19T07:30:00-07:00"
+        },
+        {
+          "date": "2024-10-19",
+          "type": "INFO",
+          "closingTime": "2024-10-20T00:00:00-07:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-10-19T11:00:00-07:00"
+        }
+      ]
+    },
+    {
+      "date": "2024-10-20",
+      "type": "Operating",
+      "purchases": [
+        {
+          "id": "lightninglanemultipass_330339",
+          "name": "Lightning Lane Multi Pass",
+          "type": "PACKAGE",
+          "price": {
+            "amount": 3600,
+            "currency": "USD",
+            "formatted": "$36.00"
+          }
+        }
+      ],
+      "closingTime": "2024-10-21T00:00:00-07:00",
+      "openingTime": "2024-10-20T08:00:00-07:00",
+      "special": [
+        {
+          "date": "2024-10-20",
+          "type": "INFO",
+          "closingTime": "2024-10-21T00:00:00-07:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-10-20T11:00:00-07:00"
+        }
+      ]
+    },
+    {
+      "date": "2024-10-21",
+      "special": [
+        {
+          "date": "2024-10-21",
+          "type": "INFO",
+          "closingTime": "2024-10-22T00:00:00-07:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-10-21T11:00:00-07:00"
+        }
+      ],
+      "type": "Operating",
+      "closingTime": "2024-10-22T00:00:00-07:00",
+      "openingTime": "2024-10-21T08:00:00-07:00"
+    },
+    {
+      "date": "2024-10-22",
+      "special": [
+        {
+          "date": "2024-10-22",
+          "type": "INFO",
+          "closingTime": "2024-10-22T23:00:00-07:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-10-22T11:00:00-07:00"
+        },
+        {
+          "date": "2024-10-22",
+          "type": "TICKETED_EVENT",
+          "closingTime": "2024-10-22T08:00:00-07:00",
+          "description": "Early Entry",
+          "openingTime": "2024-10-22T07:30:00-07:00"
+        }
+      ],
+      "type": "Operating",
+      "closingTime": "2024-10-22T23:00:00-07:00",
+      "openingTime": "2024-10-22T08:00:00-07:00"
+    },
+    {
+      "date": "2024-10-23",
+      "special": [
+        {
+          "date": "2024-10-23",
+          "type": "INFO",
+          "closingTime": "2024-10-23T23:00:00-07:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-10-23T11:00:00-07:00"
+        }
+      ],
+      "type": "Operating",
+      "closingTime": "2024-10-23T23:00:00-07:00",
+      "openingTime": "2024-10-23T08:00:00-07:00"
+    },
+    {
+      "date": "2024-10-24",
+      "special": [
+        {
+          "date": "2024-10-24",
+          "type": "INFO",
+          "closingTime": "2024-10-24T23:00:00-07:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-10-24T11:00:00-07:00"
+        },
+        {
+          "date": "2024-10-24",
+          "type": "TICKETED_EVENT",
+          "closingTime": "2024-10-24T08:00:00-07:00",
+          "description": "Early Entry",
+          "openingTime": "2024-10-24T07:30:00-07:00"
+        }
+      ],
+      "type": "Operating",
+      "closingTime": "2024-10-24T23:00:00-07:00",
+      "openingTime": "2024-10-24T08:00:00-07:00"
+    },
+    {
+      "date": "2024-10-25",
+      "special": [
+        {
+          "date": "2024-10-25",
+          "type": "INFO",
+          "closingTime": "2024-10-26T00:00:00-07:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-10-25T11:00:00-07:00"
+        }
+      ],
+      "type": "Operating",
+      "closingTime": "2024-10-26T00:00:00-07:00",
+      "openingTime": "2024-10-25T08:00:00-07:00"
+    },
+    {
+      "date": "2024-10-26",
+      "special": [
+        {
+          "date": "2024-10-26",
+          "type": "TICKETED_EVENT",
+          "closingTime": "2024-10-26T08:00:00-07:00",
+          "description": "Early Entry",
+          "openingTime": "2024-10-26T07:30:00-07:00"
+        },
+        {
+          "date": "2024-10-26",
+          "type": "INFO",
+          "closingTime": "2024-10-27T00:00:00-07:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-10-26T11:00:00-07:00"
+        }
+      ],
+      "type": "Operating",
+      "closingTime": "2024-10-27T00:00:00-07:00",
+      "openingTime": "2024-10-26T08:00:00-07:00"
+    },
+    {
+      "date": "2024-10-27",
+      "special": [
+        {
+          "date": "2024-10-27",
+          "type": "INFO",
+          "closingTime": "2024-10-28T00:00:00-07:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-10-27T11:00:00-07:00"
+        }
+      ],
+      "type": "Operating",
+      "closingTime": "2024-10-28T00:00:00-07:00",
+      "openingTime": "2024-10-27T08:00:00-07:00"
+    },
+    {
+      "date": "2024-10-28",
+      "special": [
+        {
+          "date": "2024-10-28",
+          "type": "INFO",
+          "closingTime": "2024-10-29T00:00:00-07:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-10-28T11:00:00-07:00"
+        }
+      ],
+      "type": "Operating",
+      "closingTime": "2024-10-29T00:00:00-07:00",
+      "openingTime": "2024-10-28T08:00:00-07:00"
+    },
+    {
+      "date": "2024-10-29",
+      "type": "Operating",
+      "closingTime": "2024-10-29T23:00:00-07:00",
+      "openingTime": "2024-10-29T08:00:00-07:00",
+      "special": [
+        {
+          "date": "2024-10-29",
+          "type": "INFO",
+          "closingTime": "2024-10-29T23:00:00-07:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-10-29T11:00:00-07:00"
+        },
+        {
+          "date": "2024-10-29",
+          "type": "TICKETED_EVENT",
+          "closingTime": "2024-10-29T08:00:00-07:00",
+          "description": "Early Entry",
+          "openingTime": "2024-10-29T07:30:00-07:00"
+        }
+      ]
+    },
+    {
+      "date": "2024-10-30",
+      "type": "Operating",
+      "closingTime": "2024-10-30T23:00:00-07:00",
+      "openingTime": "2024-10-30T08:00:00-07:00",
+      "special": [
+        {
+          "date": "2024-10-30",
+          "type": "INFO",
+          "closingTime": "2024-10-30T23:00:00-07:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-10-30T11:00:00-07:00"
+        }
+      ]
+    },
+    {
+      "date": "2024-10-31",
+      "type": "Operating",
+      "closingTime": "2024-10-31T23:00:00-07:00",
+      "openingTime": "2024-10-31T08:00:00-07:00",
+      "special": [
+        {
+          "date": "2024-10-31",
+          "type": "INFO",
+          "closingTime": "2024-10-31T23:00:00-07:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-10-31T11:00:00-07:00"
+        },
+        {
+          "date": "2024-10-31",
+          "type": "TICKETED_EVENT",
+          "closingTime": "2024-10-31T08:00:00-07:00",
+          "description": "Early Entry",
+          "openingTime": "2024-10-31T07:30:00-07:00"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-01",
+      "type": "Operating",
+      "closingTime": "2024-11-02T00:00:00-07:00",
+      "openingTime": "2024-11-01T08:00:00-07:00",
+      "special": [
+        {
+          "date": "2024-11-01",
+          "type": "INFO",
+          "closingTime": "2024-11-02T00:00:00-07:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-01T11:00:00-07:00"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-02",
+      "special": [
+        {
+          "date": "2024-11-02",
+          "type": "INFO",
+          "closingTime": "2024-11-03T00:00:00-07:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-02T11:00:00-07:00"
+        },
+        {
+          "date": "2024-11-02",
+          "type": "TICKETED_EVENT",
+          "closingTime": "2024-11-02T08:00:00-07:00",
+          "description": "Early Entry",
+          "openingTime": "2024-11-02T07:30:00-07:00"
+        }
+      ],
+      "type": "Operating",
+      "closingTime": "2024-11-03T00:00:00-07:00",
+      "openingTime": "2024-11-02T08:00:00-07:00"
+    },
+    {
+      "date": "2024-11-03",
+      "special": [
+        {
+          "date": "2024-11-03",
+          "type": "INFO",
+          "closingTime": "2024-11-04T00:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-03T11:00:00-08:00"
+        }
+      ],
+      "type": "Operating",
+      "closingTime": "2024-11-04T00:00:00-08:00",
+      "openingTime": "2024-11-03T08:00:00-08:00"
+    },
+    {
+      "date": "2024-11-04",
+      "special": [
+        {
+          "date": "2024-11-04",
+          "type": "INFO",
+          "closingTime": "2024-11-04T22:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-04T11:00:00-08:00"
+        }
+      ],
+      "type": "Operating",
+      "closingTime": "2024-11-04T22:00:00-08:00",
+      "openingTime": "2024-11-04T08:00:00-08:00"
+    },
+    {
+      "date": "2024-11-05",
+      "special": [
+        {
+          "date": "2024-11-05",
+          "type": "TICKETED_EVENT",
+          "closingTime": "2024-11-05T08:00:00-08:00",
+          "description": "Early Entry",
+          "openingTime": "2024-11-05T07:30:00-08:00"
+        },
+        {
+          "date": "2024-11-05",
+          "type": "INFO",
+          "closingTime": "2024-11-05T22:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-05T11:00:00-08:00"
+        }
+      ],
+      "type": "Operating",
+      "closingTime": "2024-11-05T22:00:00-08:00",
+      "openingTime": "2024-11-05T08:00:00-08:00"
+    },
+    {
+      "date": "2024-11-06",
+      "type": "Operating",
+      "closingTime": "2024-11-06T22:00:00-08:00",
+      "openingTime": "2024-11-06T08:00:00-08:00",
+      "special": [
+        {
+          "date": "2024-11-06",
+          "type": "INFO",
+          "closingTime": "2024-11-06T22:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-06T11:00:00-08:00"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-07",
+      "special": [
+        {
+          "date": "2024-11-07",
+          "type": "TICKETED_EVENT",
+          "closingTime": "2024-11-07T08:00:00-08:00",
+          "description": "Early Entry",
+          "openingTime": "2024-11-07T07:30:00-08:00"
+        },
+        {
+          "date": "2024-11-07",
+          "type": "INFO",
+          "closingTime": "2024-11-07T22:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-07T11:00:00-08:00"
+        }
+      ],
+      "type": "Operating",
+      "closingTime": "2024-11-07T22:00:00-08:00",
+      "openingTime": "2024-11-07T08:00:00-08:00"
+    },
+    {
+      "date": "2024-11-08",
+      "type": "Operating",
+      "closingTime": "2024-11-09T00:00:00-08:00",
+      "openingTime": "2024-11-08T08:00:00-08:00",
+      "special": [
+        {
+          "date": "2024-11-08",
+          "type": "INFO",
+          "closingTime": "2024-11-09T00:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-08T11:00:00-08:00"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-09",
+      "special": [
+        {
+          "date": "2024-11-09",
+          "type": "TICKETED_EVENT",
+          "closingTime": "2024-11-09T08:00:00-08:00",
+          "description": "Early Entry",
+          "openingTime": "2024-11-09T07:30:00-08:00"
+        },
+        {
+          "date": "2024-11-09",
+          "type": "INFO",
+          "closingTime": "2024-11-10T00:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-09T11:00:00-08:00"
+        }
+      ],
+      "type": "Operating",
+      "closingTime": "2024-11-10T00:00:00-08:00",
+      "openingTime": "2024-11-09T08:00:00-08:00"
+    },
+    {
+      "date": "2024-11-10",
+      "type": "Operating",
+      "closingTime": "2024-11-11T00:00:00-08:00",
+      "openingTime": "2024-11-10T08:00:00-08:00",
+      "special": [
+        {
+          "date": "2024-11-10",
+          "type": "INFO",
+          "closingTime": "2024-11-11T00:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-10T11:00:00-08:00"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-11",
+      "special": [
+        {
+          "date": "2024-11-11",
+          "type": "INFO",
+          "closingTime": "2024-11-11T22:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-11T11:00:00-08:00"
+        }
+      ],
+      "type": "Operating",
+      "closingTime": "2024-11-11T22:00:00-08:00",
+      "openingTime": "2024-11-11T08:00:00-08:00"
+    },
+    {
+      "date": "2024-11-12",
+      "special": [
+        {
+          "date": "2024-11-12",
+          "type": "INFO",
+          "closingTime": "2024-11-12T22:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-12T11:00:00-08:00"
+        },
+        {
+          "date": "2024-11-12",
+          "type": "TICKETED_EVENT",
+          "closingTime": "2024-11-12T08:00:00-08:00",
+          "description": "Early Entry",
+          "openingTime": "2024-11-12T07:30:00-08:00"
+        }
+      ],
+      "type": "Operating",
+      "closingTime": "2024-11-12T22:00:00-08:00",
+      "openingTime": "2024-11-12T08:00:00-08:00"
+    },
+    {
+      "date": "2024-11-13",
+      "type": "Operating",
+      "closingTime": "2024-11-13T19:00:00-08:00",
+      "openingTime": "2024-11-13T08:00:00-08:00",
+      "special": [
+        {
+          "date": "2024-11-13",
+          "type": "INFO",
+          "closingTime": "2024-11-13T19:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-13T11:00:00-08:00"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-14",
+      "special": [
+        {
+          "date": "2024-11-14",
+          "type": "INFO",
+          "closingTime": "2024-11-14T22:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-14T11:00:00-08:00"
+        },
+        {
+          "date": "2024-11-14",
+          "type": "TICKETED_EVENT",
+          "closingTime": "2024-11-14T08:00:00-08:00",
+          "description": "Early Entry",
+          "openingTime": "2024-11-14T07:30:00-08:00"
+        }
+      ],
+      "type": "Operating",
+      "closingTime": "2024-11-14T22:00:00-08:00",
+      "openingTime": "2024-11-14T08:00:00-08:00"
+    },
+    {
+      "date": "2024-11-15",
+      "type": "Operating",
+      "closingTime": "2024-11-16T00:00:00-08:00",
+      "openingTime": "2024-11-15T08:00:00-08:00",
+      "special": [
+        {
+          "date": "2024-11-15",
+          "type": "INFO",
+          "closingTime": "2024-11-16T00:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-15T11:00:00-08:00"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-16",
+      "special": [
+        {
+          "date": "2024-11-16",
+          "type": "TICKETED_EVENT",
+          "closingTime": "2024-11-16T08:00:00-08:00",
+          "description": "Early Entry",
+          "openingTime": "2024-11-16T07:30:00-08:00"
+        },
+        {
+          "date": "2024-11-16",
+          "type": "INFO",
+          "closingTime": "2024-11-17T00:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-16T11:00:00-08:00"
+        }
+      ],
+      "type": "Operating",
+      "closingTime": "2024-11-17T00:00:00-08:00",
+      "openingTime": "2024-11-16T08:00:00-08:00"
+    },
+    {
+      "date": "2024-11-17",
+      "type": "Operating",
+      "closingTime": "2024-11-18T00:00:00-08:00",
+      "openingTime": "2024-11-17T08:00:00-08:00",
+      "special": [
+        {
+          "date": "2024-11-17",
+          "type": "INFO",
+          "closingTime": "2024-11-18T00:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-17T11:00:00-08:00"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-18",
+      "special": [
+        {
+          "date": "2024-11-18",
+          "type": "INFO",
+          "closingTime": "2024-11-19T00:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-18T11:00:00-08:00"
+        }
+      ],
+      "type": "Operating",
+      "closingTime": "2024-11-19T00:00:00-08:00",
+      "openingTime": "2024-11-18T08:00:00-08:00"
+    },
+    {
+      "date": "2024-11-19",
+      "special": [
+        {
+          "date": "2024-11-19",
+          "type": "TICKETED_EVENT",
+          "closingTime": "2024-11-19T08:00:00-08:00",
+          "description": "Early Entry",
+          "openingTime": "2024-11-19T07:30:00-08:00"
+        },
+        {
+          "date": "2024-11-19",
+          "type": "INFO",
+          "closingTime": "2024-11-20T00:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-19T11:00:00-08:00"
+        }
+      ],
+      "type": "Operating",
+      "closingTime": "2024-11-20T00:00:00-08:00",
+      "openingTime": "2024-11-19T08:00:00-08:00"
+    },
+    {
+      "date": "2024-11-20",
+      "type": "Operating",
+      "closingTime": "2024-11-21T00:00:00-08:00",
+      "openingTime": "2024-11-20T08:00:00-08:00",
+      "special": [
+        {
+          "date": "2024-11-20",
+          "type": "INFO",
+          "closingTime": "2024-11-21T00:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-20T11:00:00-08:00"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-21",
+      "special": [
+        {
+          "date": "2024-11-21",
+          "type": "INFO",
+          "closingTime": "2024-11-22T00:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-21T11:00:00-08:00"
+        },
+        {
+          "date": "2024-11-21",
+          "type": "TICKETED_EVENT",
+          "closingTime": "2024-11-21T08:00:00-08:00",
+          "description": "Early Entry",
+          "openingTime": "2024-11-21T07:30:00-08:00"
+        }
+      ],
+      "type": "Operating",
+      "closingTime": "2024-11-22T00:00:00-08:00",
+      "openingTime": "2024-11-21T08:00:00-08:00"
+    },
+    {
+      "date": "2024-11-22",
+      "special": [
+        {
+          "date": "2024-11-22",
+          "type": "INFO",
+          "closingTime": "2024-11-23T00:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-22T11:00:00-08:00"
+        }
+      ],
+      "type": "Operating",
+      "closingTime": "2024-11-23T00:00:00-08:00",
+      "openingTime": "2024-11-22T08:00:00-08:00"
+    },
+    {
+      "date": "2024-11-23",
+      "type": "Operating",
+      "closingTime": "2024-11-24T00:00:00-08:00",
+      "openingTime": "2024-11-23T08:00:00-08:00",
+      "special": [
+        {
+          "date": "2024-11-23",
+          "type": "INFO",
+          "closingTime": "2024-11-24T00:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-23T11:00:00-08:00"
+        },
+        {
+          "date": "2024-11-23",
+          "type": "TICKETED_EVENT",
+          "closingTime": "2024-11-23T08:00:00-08:00",
+          "description": "Early Entry",
+          "openingTime": "2024-11-23T07:30:00-08:00"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-24",
+      "special": [
+        {
+          "date": "2024-11-24",
+          "type": "INFO",
+          "closingTime": "2024-11-25T00:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-24T11:00:00-08:00"
+        }
+      ],
+      "type": "Operating",
+      "closingTime": "2024-11-25T00:00:00-08:00",
+      "openingTime": "2024-11-24T08:00:00-08:00"
+    },
+    {
+      "date": "2024-11-25",
+      "type": "Operating",
+      "closingTime": "2024-11-26T00:00:00-08:00",
+      "openingTime": "2024-11-25T08:00:00-08:00",
+      "special": [
+        {
+          "date": "2024-11-25",
+          "type": "INFO",
+          "closingTime": "2024-11-26T00:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-25T11:00:00-08:00"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-26",
+      "type": "Operating",
+      "closingTime": "2024-11-27T00:00:00-08:00",
+      "openingTime": "2024-11-26T08:00:00-08:00",
+      "special": [
+        {
+          "date": "2024-11-26",
+          "type": "INFO",
+          "closingTime": "2024-11-27T00:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-26T11:00:00-08:00"
+        },
+        {
+          "date": "2024-11-26",
+          "type": "TICKETED_EVENT",
+          "closingTime": "2024-11-26T08:00:00-08:00",
+          "description": "Early Entry",
+          "openingTime": "2024-11-26T07:30:00-08:00"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-27",
+      "type": "Operating",
+      "closingTime": "2024-11-28T00:00:00-08:00",
+      "openingTime": "2024-11-27T08:00:00-08:00",
+      "special": [
+        {
+          "date": "2024-11-27",
+          "type": "INFO",
+          "closingTime": "2024-11-28T00:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-27T11:00:00-08:00"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-28",
+      "type": "Operating",
+      "closingTime": "2024-11-29T00:00:00-08:00",
+      "openingTime": "2024-11-28T08:00:00-08:00",
+      "special": [
+        {
+          "date": "2024-11-28",
+          "type": "INFO",
+          "closingTime": "2024-11-29T00:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-28T11:00:00-08:00"
+        },
+        {
+          "date": "2024-11-28",
+          "type": "TICKETED_EVENT",
+          "closingTime": "2024-11-28T08:00:00-08:00",
+          "description": "Early Entry",
+          "openingTime": "2024-11-28T07:30:00-08:00"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-29",
+      "special": [
+        {
+          "date": "2024-11-29",
+          "type": "INFO",
+          "closingTime": "2024-11-30T00:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-29T11:00:00-08:00"
+        }
+      ],
+      "type": "Operating",
+      "closingTime": "2024-11-30T00:00:00-08:00",
+      "openingTime": "2024-11-29T08:00:00-08:00"
+    },
+    {
+      "date": "2024-11-30",
+      "type": "Operating",
+      "closingTime": "2024-12-01T00:00:00-08:00",
+      "openingTime": "2024-11-30T08:00:00-08:00",
+      "special": [
+        {
+          "date": "2024-11-30",
+          "type": "TICKETED_EVENT",
+          "closingTime": "2024-11-30T08:00:00-08:00",
+          "description": "Early Entry",
+          "openingTime": "2024-11-30T07:30:00-08:00"
+        },
+        {
+          "date": "2024-11-30",
+          "type": "INFO",
+          "closingTime": "2024-12-01T00:00:00-08:00",
+          "description": "Park Hopping",
+          "openingTime": "2024-11-30T11:00:00-08:00"
+        }
+      ]
+    }
+  ]

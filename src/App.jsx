@@ -1,34 +1,18 @@
 import './App.css';
-import React, { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Header from './Components/Header';
 import ParkHours from './Components/ParkHours';
 import AttractionsHeader from './Components/AttractionsHeader';
 import Attraction from './Components/Attraction';
+import dummyParkHours from './dummy-park-hours.json';
+import dummyWaitTimes from './dummy-wait-times.json';
 
 function App() {
-  const [attractions, setAttractions] = useState([]);
-  const [parkHours, setParkHours] = useState({});
-
-  useEffect(() => {
-    const getAttractionData = async () => {
-      const response = await fetch('https://cors-anywhere.herokuapp.com/https://api.themeparks.wiki/preview/parks/DisneylandResortMagicKingdom/waittime');
-      const responseJson = await response.json();
-      setAttractions(responseJson);
-    }
-
-    const getParkHoursData = async () => {
-      const response = await fetch('https://cors-anywhere.herokuapp.com/https://api.themeparks.wiki/preview/parks/DisneylandResortMagicKingdom/calendar');
-      const responseJson = await response.json();
-      const todaysParkHours = {
-        opening: formatAMPM(responseJson[0].openingTime),
-        closing: formatAMPM(responseJson[0].closingTime)
-      }
-      setParkHours(todaysParkHours);
-    }
-
-    getAttractionData();
-    getParkHoursData();
-  }, []);
+  const [attractions, setAttractions] = useState(dummyWaitTimes);
+  const [parkHours, setParkHours] = useState({
+    opening: formatAMPM(dummyParkHours[0].openingTime),
+    closing: formatAMPM(dummyParkHours[0].closingTime)
+  });
 
   function formatAMPM(date) {
     const parsedDate = new Date(date);

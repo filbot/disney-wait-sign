@@ -1,0 +1,1297 @@
+[
+    {
+      "id": "DisneylandResortMagicKingdom_353435",
+      "waitTime": 30,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T23:08:18.845Z",
+      "name": "Space Mountain",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.917056,
+        "latitude": 33.811548,
+        "entityId": "9167db1d-e5e7-46da-a07f-ae30a87bc4c4",
+        "singleRider": false,
+        "returnTime": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2024-10-20T21:50:00-07:00"
+        }
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353315",
+      "waitTime": null,
+      "status": "Refurbishment",
+      "active": false,
+      "lastUpdate": "2024-10-05T07:04:23.471Z",
+      "name": "Disneyland Railroad",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.918989,
+        "latitude": 33.809998,
+        "entityId": "e2d460e9-2bef-4613-b126-092ab7cb37e5",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353347",
+      "waitTime": null,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T23:08:18.251Z",
+      "name": "Haunted Mansion Holiday",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.921873,
+        "latitude": 33.811656,
+        "entityId": "ff52cb64-c1d5-4feb-9d43-5dbd429bac81",
+        "boardingGroup": {
+          "estimatedWait": null,
+          "currentGroupEnd": 149,
+          "allocationStatus": "CLOSED",
+          "currentGroupStart": 134,
+          "nextAllocationTime": null
+        },
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_367492",
+      "waitTime": null,
+      "status": "Refurbishment",
+      "active": false,
+      "lastUpdate": "2024-09-23T22:21:32.303Z",
+      "name": "\"it's a small world\"",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.917782,
+        "latitude": 33.8144,
+        "entityId": "3638ac09-9fce-4a43-8c79-8ebbe17afce2",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "0f655e3b-3fd4-453c-bac3-cf68c158fc2e",
+      "waitTime": null,
+      "status": null,
+      "active": false,
+      "lastUpdate": null,
+      "name": "Pooh Corner",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.9231922808,
+        "latitude": 33.8122770331,
+        "entityId": "0f655e3b-3fd4-453c-bac3-cf68c158fc2e",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "632bcc13-e923-4ed0-bfe8-b937e3d1b435",
+      "waitTime": null,
+      "status": null,
+      "active": false,
+      "lastUpdate": null,
+      "name": "Candy Palace and Candy Kitchen",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.9190407415,
+        "latitude": 33.8112866142,
+        "entityId": "632bcc13-e923-4ed0-bfe8-b937e3d1b435",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "f0f57b5c-5bc5-49d6-8b7f-34e4aa03c2e8",
+      "waitTime": null,
+      "status": null,
+      "active": false,
+      "lastUpdate": null,
+      "name": "Tiana’s Palace",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.921516,
+        "latitude": 33.811266,
+        "entityId": "f0f57b5c-5bc5-49d6-8b7f-34e4aa03c2e8",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "f8d61baa-dc1a-4e82-ab6b-f24bdd83e6e1",
+      "waitTime": null,
+      "status": null,
+      "active": false,
+      "lastUpdate": null,
+      "name": "Café Daisy",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.918682,
+        "latitude": 33.81547,
+        "entityId": "f8d61baa-dc1a-4e82-ab6b-f24bdd83e6e1",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353337",
+      "waitTime": 40,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T23:05:11.210Z",
+      "name": "Chip 'n' Dale's GADGETcoaster",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.919157,
+        "latitude": 33.815296,
+        "entityId": "59647168-d239-4161-8b24-92eb128e96fb",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "cd670bff-81d1-4f34-8676-7bafdf49220a",
+      "waitTime": 25,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T23:08:18.404Z",
+      "name": "Mickey & Minnie's Runaway Railway",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.91839,
+        "latitude": 33.815507,
+        "entityId": "cd670bff-81d1-4f34-8676-7bafdf49220a",
+        "singleRider": false,
+        "returnTime": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2024-10-20T22:35:00-07:00"
+        }
+      }
+    },
+    {
+      "id": "e27b1db8-9ec9-4f8b-9ca6-fd6377de66ee",
+      "waitTime": null,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T15:01:50.766Z",
+      "name": "Adventureland Treehouse inspired by Walt Disney’s Swiss Family Robinson",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.920585,
+        "latitude": 33.811325,
+        "entityId": "e27b1db8-9ec9-4f8b-9ca6-fd6377de66ee",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "37858b2a-9c11-4ac6-9f8d-db7fa9088703",
+      "waitTime": null,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T07:13:00.136Z",
+      "name": "The Disney Gallery",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.918559,
+        "latitude": 33.810265,
+        "entityId": "37858b2a-9c11-4ac6-9f8d-db7fa9088703",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "c2997e65-6db0-413f-a2db-ee995711d931",
+      "waitTime": null,
+      "status": null,
+      "active": false,
+      "lastUpdate": null,
+      "name": "Fortune Tellers",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.919057,
+        "latitude": 33.811237,
+        "entityId": "c2997e65-6db0-413f-a2db-ee995711d931",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_19193459",
+      "waitTime": 15,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T23:08:18.580Z",
+      "name": "Millennium Falcon: Smugglers Run",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.921379,
+        "latitude": 33.814867,
+        "entityId": "b2c2549c-e9da-4fdd-98ea-1dcff596fed7",
+        "singleRider": true,
+        "singleRiderWaitTime": null,
+        "returnTime": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2024-10-20T16:10:00-07:00"
+        }
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_19193461",
+      "waitTime": 60,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T23:08:18.466Z",
+      "name": "Star Wars: Rise of the Resistance",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.923079,
+        "latitude": 33.813859,
+        "entityId": "34b1d70f-11c4-42df-935e-d5582c9f1a8e",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353291",
+      "waitTime": 15,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T23:07:38.331Z",
+      "name": "Astro Orbitor",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.9181900145,
+        "latitude": 33.812108371,
+        "entityId": "6c225598-91c9-44a3-95e2-7c423475db61",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353293",
+      "waitTime": 15,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T23:08:18.650Z",
+      "name": "Autopia",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.9165033178,
+        "latitude": 33.8124087477,
+        "entityId": "1da85181-bf0f-4ccc-b98e-243142f7347b",
+        "singleRider": false,
+        "returnTime": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2024-10-20T16:15:00-07:00"
+        }
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353295",
+      "waitTime": 25,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T23:07:44.117Z",
+      "name": "Big Thunder Mountain Railroad",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.9203568914,
+        "latitude": 33.8124773145,
+        "entityId": "0de1413a-73ee-46cf-af2e-c491cc7c7d3b",
+        "singleRider": false,
+        "returnTime": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2024-10-20T16:20:00-07:00"
+        }
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353301",
+      "waitTime": 15,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T23:08:18.523Z",
+      "name": "Buzz Lightyear Astro Blasters",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.917806,
+        "latitude": 33.812204,
+        "entityId": "88197808-3c56-4198-a5a4-6066541251cf",
+        "singleRider": false,
+        "returnTime": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2024-10-20T16:15:00-07:00"
+        }
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353305",
+      "waitTime": 15,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T21:42:03.857Z",
+      "name": "Casey Jr. Circus Train",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.9191704019,
+        "latitude": 33.8137301217,
+        "entityId": "8e686e4c-f3db-4d9c-a185-2d54b1fa8899",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353311",
+      "waitTime": 10,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T17:07:18.729Z",
+      "name": "Davy Crockett's Explorer Canoes",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.9221264816,
+        "latitude": 33.8125062856,
+        "entityId": "5bd95ae8-181d-449c-8f04-a621e2448961",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353313",
+      "waitTime": 5,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T15:52:01.506Z",
+      "name": "Disneyland Monorail",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.91679,
+        "latitude": 33.812618,
+        "entityId": "56d0bd6d-5106-4420-8f60-0005475c04c3",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "ca32ef8a-ae0d-4c24-bf4f-e59192122e01",
+      "waitTime": null,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T07:13:00.399Z",
+      "name": "Donald's Duck Pond",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.919019,
+        "latitude": 33.815232,
+        "entityId": "ca32ef8a-ae0d-4c24-bf4f-e59192122e01",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353323",
+      "waitTime": 20,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T21:52:41.025Z",
+      "name": "Dumbo the Flying Elephant",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.9188292111,
+        "latitude": 33.8136094534,
+        "entityId": "cc980e8e-192f-48b6-848c-27784084e54b",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353325",
+      "waitTime": null,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T15:01:46.434Z",
+      "name": "Walt Disney's Enchanted Tiki Room",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.919569,
+        "latitude": 33.811829,
+        "entityId": "106c1e5a-a5e7-42d7-96ab-bc100d8faf71",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353327",
+      "waitTime": 15,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T22:17:02.063Z",
+      "name": "Finding Nemo Submarine Voyage",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.916947,
+        "latitude": 33.812618,
+        "entityId": "64d44aaa-6857-4693-b24b-bcff6c6dcfa1",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "835deb74-de54-4d7f-9dc4-dacab90fcb60",
+      "waitTime": null,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T07:13:00.516Z",
+      "name": "Frontierland Shootin' Exposition",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.919855621,
+        "latitude": 33.8122300089,
+        "entityId": "835deb74-de54-4d7f-9dc4-dacab90fcb60",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "b0eca3d3-a519-47f9-a5a7-9911126da2df",
+      "waitTime": null,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T15:01:48.585Z",
+      "name": "Goofy's How-to-Play Yard",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.9186858237,
+        "latitude": 33.8151987474,
+        "entityId": "b0eca3d3-a519-47f9-a5a7-9911126da2df",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353355",
+      "waitTime": 50,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T23:08:18.792Z",
+      "name": "Indiana Jones™ Adventure",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.9203269,
+        "latitude": 33.81130552,
+        "entityId": "2aedc657-1ee2-4545-a1ce-14753f28cc66",
+        "singleRider": false,
+        "returnTime": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2024-10-20T23:15:00-07:00"
+        }
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353363",
+      "waitTime": 20,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T23:03:32.101Z",
+      "name": "Jungle Cruise",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.920092,
+        "latitude": 33.81144,
+        "entityId": "1b83fda8-d60e-48e4-9a3d-90ddcbcd1001",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353365",
+      "waitTime": 10,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T23:07:45.678Z",
+      "name": "King Arthur Carrousel",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.918974,
+        "latitude": 33.813474,
+        "entityId": "f7904912-3f08-4563-b99e-fd59f43cc9f2",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353369",
+      "waitTime": 10,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T20:52:10.506Z",
+      "name": "Mad Tea Party",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.9184149206,
+        "latitude": 33.8135273725,
+        "entityId": "e0cfed11-96d7-40f3-907f-5cfed172592a",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "f5bb0d14-7eee-4ede-9230-eb256ce3664c",
+      "waitTime": null,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T07:13:00.637Z",
+      "name": "Main Street Cinema",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.918887,
+        "latitude": 33.810768,
+        "entityId": "f5bb0d14-7eee-4ede-9230-eb256ce3664c",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353375",
+      "waitTime": null,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T16:07:01.996Z",
+      "name": "Mark Twain Riverboat",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.9204627872,
+        "latitude": 33.8122772066,
+        "entityId": "6c30d5b0-8c0a-406f-9258-0b6c55d4a5e4",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353377",
+      "waitTime": 30,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T23:08:18.347Z",
+      "name": "Matterhorn Bobsleds",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.91782,
+        "latitude": 33.813453,
+        "entityId": "faaa8be9-cc1e-4535-ac20-04a535654bd0",
+        "singleRider": false,
+        "returnTime": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2024-10-20T19:00:00-07:00"
+        }
+      }
+    },
+    {
+      "id": "c02fb82d-0860-4e95-8c61-899fa594d20e",
+      "waitTime": null,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T07:13:00.758Z",
+      "name": "Minnie's House",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.9189902544,
+        "latitude": 33.815524801,
+        "entityId": "c02fb82d-0860-4e95-8c61-899fa594d20e",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353389",
+      "waitTime": 20,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T23:07:46.232Z",
+      "name": "Mr. Toad's Wild Ride",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.9187763289,
+        "latitude": 33.8133812161,
+        "entityId": "9d401ad3-49b2-469f-ac73-93eb429428fb",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353399",
+      "waitTime": 30,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T22:53:44.424Z",
+      "name": "Peter Pan's Flight",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.9188762605,
+        "latitude": 33.8131949042,
+        "entityId": "c23af6ba-8515-406a-8a48-d0818ba0bfc9",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353401",
+      "waitTime": 15,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T22:17:01.827Z",
+      "name": "Pinocchio's Daring Journey",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.9190900509,
+        "latitude": 33.8132880704,
+        "entityId": "90ee50d4-7cc9-4824-b29d-2aac801acc29",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353403",
+      "waitTime": null,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T16:07:01.735Z",
+      "name": "Pirate's Lair on Tom Sawyer Island",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.921538353,
+        "latitude": 33.8116538616,
+        "entityId": "07952343-3498-404b-8337-734de9a185c1",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353405",
+      "waitTime": 30,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T23:08:18.738Z",
+      "name": "Pirates of the Caribbean",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.920819,
+        "latitude": 33.811387,
+        "entityId": "82aeb29b-504a-416f-b13f-f41fa5b766aa",
+        "singleRider": false,
+        "returnTime": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2024-10-20T16:45:00-07:00"
+        }
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353421",
+      "waitTime": 60,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T23:07:38.237Z",
+      "name": "Roger Rabbit's Car Toon Spin",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.918085,
+        "latitude": 33.815204,
+        "entityId": "6ce9cdd1-0a43-459e-83cd-f4cace9cfa7b",
+        "singleRider": false,
+        "returnTime": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2024-10-20T22:30:00-07:00"
+        }
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353425",
+      "waitTime": null,
+      "status": "Closed",
+      "active": false,
+      "lastUpdate": "2024-10-20T22:43:22.308Z",
+      "name": "Sailing Ship Columbia",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.9204627872,
+        "latitude": 33.8122772066,
+        "entityId": "c9e39189-7e99-4e0a-97e0-4a0d5654d257",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "90d5a091-478c-4df1-adfe-c605b4005013",
+      "waitTime": null,
+      "status": "Closed",
+      "active": false,
+      "lastUpdate": "2024-10-20T11:12:02.585Z",
+      "name": "Sleeping Beauty Castle Walkthrough",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.919078,
+        "latitude": 33.812912,
+        "entityId": "90d5a091-478c-4df1-adfe-c605b4005013",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353429",
+      "waitTime": 20,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T23:03:31.224Z",
+      "name": "Snow White's Enchanted Wish",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.9190614653,
+        "latitude": 33.8131664471,
+        "entityId": "4f0053e7-b8db-4833-b02f-35e1c91b4523",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353439",
+      "waitTime": 15,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T23:07:38.485Z",
+      "name": "Star Tours - The Adventures Continue",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.917978,
+        "latitude": 33.811997,
+        "entityId": "cc718d11-fa15-44ee-87d0-ded989ad61bc",
+        "singleRider": false,
+        "returnTime": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2024-10-20T16:10:00-07:00"
+        }
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353443",
+      "waitTime": 15,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T23:03:31.340Z",
+      "name": "Storybook Land Canal Boats",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.9182008987,
+        "latitude": 33.8136306683,
+        "entityId": "cb929138-d77a-4dd2-983c-f651bbd1bd92",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353449",
+      "waitTime": 25,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T22:34:40.432Z",
+      "name": "The Many Adventures of Winnie the Pooh",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.922632,
+        "latitude": 33.812376,
+        "entityId": "52a8ef64-d54c-4974-883f-027c3026e3f1",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_353461",
+      "waitTime": null,
+      "status": "Refurbishment",
+      "active": false,
+      "lastUpdate": "2024-06-16T05:02:34.609Z",
+      "name": "The Disneyland Story presenting Great Moments with Mr. Lincoln",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.918559,
+        "latitude": 33.810265,
+        "entityId": "1b23667a-d8fb-436d-8952-c3e3f2e56d13",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_367495",
+      "waitTime": 35,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T22:43:20.847Z",
+      "name": "Alice in Wonderland",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.9182459414,
+        "latitude": 33.8133130163,
+        "entityId": "a07f3110-013e-43bb-a182-e66bb8b5e28d",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "bcfd1e17-3eab-4203-b597-6257a257d427",
+      "waitTime": null,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T07:13:02.639Z",
+      "name": "Main Street Vehicles",
+      "fastPass": false,
+      "meta": {
+        "type": "ATTRACTION",
+        "longitude": -117.9189620912,
+        "latitude": 33.8102153073,
+        "entityId": "bcfd1e17-3eab-4203-b597-6257a257d427",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "1822fb68-5f64-4329-b7e2-d4065f7159ac",
+      "waitTime": null,
+      "status": null,
+      "active": false,
+      "lastUpdate": null,
+      "name": "Ronto Roasters",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.921484,
+        "latitude": 33.814424,
+        "entityId": "1822fb68-5f64-4329-b7e2-d4065f7159ac",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "1db8443f-624c-4d95-967c-1766a52b24ec",
+      "waitTime": null,
+      "status": null,
+      "active": false,
+      "lastUpdate": null,
+      "name": "Red Rose Taverne",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.9194486939,
+        "latitude": 33.8134853951,
+        "entityId": "1db8443f-624c-4d95-967c-1766a52b24ec",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_19268344",
+      "waitTime": 30,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T23:10:58.633Z",
+      "name": "Oga's Cantina at the Disneyland Resort",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.920943,
+        "latitude": 33.814717,
+        "entityId": "eb29424b-42ed-41a2-891c-d4c9494eab12",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "4784fd0f-9ba3-4a5d-a4b9-ed33b93c4489",
+      "waitTime": null,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-19T20:37:01.837Z",
+      "name": "Blue Bayou Restaurant",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.921126,
+        "latitude": 33.811049,
+        "entityId": "4784fd0f-9ba3-4a5d-a4b9-ed33b93c4489",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_354117",
+      "waitTime": null,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T23:12:38.104Z",
+      "name": "Cafe Orleans",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.921262,
+        "latitude": 33.811205,
+        "entityId": "3665b38e-3e56-4c84-ad20-3e39672079a1",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "c7ce633e-1f6b-4699-98c9-6772bb196b16",
+      "waitTime": 30,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T23:12:42.216Z",
+      "name": "Carnation Cafe",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.9190407415,
+        "latitude": 33.8110402999,
+        "entityId": "c7ce633e-1f6b-4699-98c9-6772bb196b16",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "2e0d0726-07c7-42f6-b839-68a56a41e268",
+      "waitTime": null,
+      "status": null,
+      "active": false,
+      "lastUpdate": null,
+      "name": "Mint Julep Bar",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.921656,
+        "latitude": 33.811176,
+        "entityId": "2e0d0726-07c7-42f6-b839-68a56a41e268",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "8deb6338-b65f-467c-9dd3-56ed8c02c355",
+      "waitTime": null,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-09-16T08:11:42.083Z",
+      "name": "Plaza Inn",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.918622265,
+        "latitude": 33.8117514713,
+        "entityId": "8deb6338-b65f-467c-9dd3-56ed8c02c355",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "92f45ae9-5e6d-4923-88d4-7f676c2d10b2",
+      "waitTime": null,
+      "status": null,
+      "active": false,
+      "lastUpdate": null,
+      "name": "Harbour Galley",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.921936614,
+        "latitude": 33.8120188925,
+        "entityId": "92f45ae9-5e6d-4923-88d4-7f676c2d10b2",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "fb686e53-e10d-4cd5-836c-7a4a93207361",
+      "waitTime": null,
+      "status": null,
+      "active": false,
+      "lastUpdate": null,
+      "name": "Hungry Bear Restaurant",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.922435,
+        "latitude": 33.812554,
+        "entityId": "fb686e53-e10d-4cd5-836c-7a4a93207361",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "DisneylandResortMagicKingdom_354450",
+      "waitTime": null,
+      "status": "Operating",
+      "active": true,
+      "lastUpdate": "2024-10-20T20:37:26.673Z",
+      "name": "River Belle Terrace",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.9205917872,
+        "latitude": 33.8116150928,
+        "entityId": "057872ed-3f27-496f-80e2-edd3639ba084",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "045b0c03-48e7-4975-8885-a6cf5d8e0ac8",
+      "waitTime": null,
+      "status": null,
+      "active": false,
+      "lastUpdate": null,
+      "name": "Alien Pizza Planet",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.9168865347,
+        "latitude": 33.8117081571,
+        "entityId": "045b0c03-48e7-4975-8885-a6cf5d8e0ac8",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "fae2515c-777b-4f37-b647-06383c1904d3",
+      "waitTime": null,
+      "status": null,
+      "active": false,
+      "lastUpdate": null,
+      "name": "Stage Door Café",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.9203,
+        "latitude": 33.811889,
+        "entityId": "fae2515c-777b-4f37-b647-06383c1904d3",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "d2feb649-41ea-4097-a45b-10cfb48d13aa",
+      "waitTime": null,
+      "status": null,
+      "active": false,
+      "lastUpdate": null,
+      "name": "Royal Street Veranda",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.9209163877,
+        "latitude": 33.8112279116,
+        "entityId": "d2feb649-41ea-4097-a45b-10cfb48d13aa",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "27ab9530-4fd5-4e9c-a5b1-d553fed56655",
+      "waitTime": null,
+      "status": null,
+      "active": false,
+      "lastUpdate": null,
+      "name": "Refreshment Corner",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.9190483181,
+        "latitude": 33.8114464994,
+        "entityId": "27ab9530-4fd5-4e9c-a5b1-d553fed56655",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "7bf706cd-0cf5-4640-a079-23a7a46f4f5b",
+      "waitTime": null,
+      "status": null,
+      "active": false,
+      "lastUpdate": null,
+      "name": "Bengal Barbecue",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.920299,
+        "latitude": 33.811555,
+        "entityId": "7bf706cd-0cf5-4640-a079-23a7a46f4f5b",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "fbee3a16-4be3-47f3-97a7-70ef09aff088",
+      "waitTime": null,
+      "status": null,
+      "active": false,
+      "lastUpdate": null,
+      "name": "Edelweiss Snacks",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.9177229106,
+        "latitude": 33.8137108075,
+        "entityId": "fbee3a16-4be3-47f3-97a7-70ef09aff088",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "c48369cc-e341-4066-96b8-3687ccad1e49",
+      "waitTime": null,
+      "status": null,
+      "active": false,
+      "lastUpdate": null,
+      "name": "Tiki Juice Bar",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.9195771195,
+        "latitude": 33.8118490285,
+        "entityId": "c48369cc-e341-4066-96b8-3687ccad1e49",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "d295c224-299f-4fda-9d14-1d7780401929",
+      "waitTime": null,
+      "status": null,
+      "active": false,
+      "lastUpdate": null,
+      "name": "Jolly Holiday Bakery Cafe",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.9193308949,
+        "latitude": 33.8117051187,
+        "entityId": "d295c224-299f-4fda-9d14-1d7780401929",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "3a63d923-413a-4512-b873-c690596fb479",
+      "waitTime": null,
+      "status": null,
+      "active": false,
+      "lastUpdate": null,
+      "name": "Troubadour Tavern",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.9187180102,
+        "latitude": 33.8145219838,
+        "entityId": "3a63d923-413a-4512-b873-c690596fb479",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "94453dec-3f16-43a6-94c9-be55144606b8",
+      "waitTime": null,
+      "status": null,
+      "active": false,
+      "lastUpdate": null,
+      "name": "Milk Stand",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.92069,
+        "latitude": 33.814428,
+        "entityId": "94453dec-3f16-43a6-94c9-be55144606b8",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "8abfd370-4c29-4154-bb96-41e031b78d29",
+      "waitTime": null,
+      "status": null,
+      "active": false,
+      "lastUpdate": null,
+      "name": "Docking Bay 7 Food and Cargo",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.921432,
+        "latitude": 33.814742,
+        "entityId": "8abfd370-4c29-4154-bb96-41e031b78d29",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "e88cbd63-e385-423b-9565-fbe5faeb9050",
+      "waitTime": null,
+      "status": null,
+      "active": false,
+      "lastUpdate": null,
+      "name": "Galactic Grill",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.917296,
+        "latitude": 33.812449,
+        "entityId": "e88cbd63-e385-423b-9565-fbe5faeb9050",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "9e90d256-2ba5-4d7d-a73a-0fadd6b4a141",
+      "waitTime": null,
+      "status": null,
+      "active": false,
+      "lastUpdate": null,
+      "name": "The Golden Horseshoe",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.9203117258,
+        "latitude": 33.8120514864,
+        "entityId": "9e90d256-2ba5-4d7d-a73a-0fadd6b4a141",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "2215958d-c6b0-4513-912c-706dbf3e46e9",
+      "waitTime": null,
+      "status": null,
+      "active": false,
+      "lastUpdate": null,
+      "name": "Gibson Girl Ice Cream Parlor",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.9190407415,
+        "latitude": 33.8111392429,
+        "entityId": "2215958d-c6b0-4513-912c-706dbf3e46e9",
+        "singleRider": false
+      }
+    },
+    {
+      "id": "1cdd0f00-de40-4f7f-bf1b-014926d51aca",
+      "waitTime": null,
+      "status": null,
+      "active": false,
+      "lastUpdate": null,
+      "name": "Little Red Wagon",
+      "fastPass": false,
+      "meta": {
+        "type": "RESTAURANT",
+        "longitude": -117.9186756938,
+        "latitude": 33.8114840141,
+        "entityId": "1cdd0f00-de40-4f7f-bf1b-014926d51aca",
+        "singleRider": false
+      }
+    }
+  ]
