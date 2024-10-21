@@ -16,14 +16,11 @@ function App() {
 
   function formatAMPM(date) {
     const parsedDate = new Date(date);
-    var hours = parsedDate.getHours();
-    var minutes = parsedDate.getMinutes();
-    var ampm = hours >= 12 ? 'pm' : 'am';
-    hours = hours % 12;
-    hours = hours ? hours : 12; // the hour '0' should be '12'
-    minutes = minutes < 10 ? '0' + minutes : minutes;
-    var strTime = hours + ':' + minutes + ampm;
-    return strTime;
+    return new Intl.DateTimeFormat('en-US', {
+      hour: 'numeric',
+      minute: 'numeric',
+      hour12: true
+    }).format(parsedDate);
   }
 
   function filterAttractionsByNames(attractions, names) {
