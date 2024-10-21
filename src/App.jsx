@@ -1,5 +1,5 @@
 import './App.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Header from './Components/Header';
 import ParkHours from './Components/ParkHours';
 import AttractionsHeader from './Components/AttractionsHeader';
@@ -13,6 +13,32 @@ function App() {
     opening: formatAMPM(dummyParkHours[0].openingTime),
     closing: formatAMPM(dummyParkHours[0].closingTime)
   });
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [attractionResponse, parkHoursResponse] = await Promise.all([
+          fetch('https://api.themeparks.wiki/preview/parks/DisneylandResortMagicKingdom/waittime'),
+          fetch('https://api.themeparks.wiki/preview/parks/DisneylandResortMagicKingdom/calendar')
+        ]);
+
+        const attractionData = await attractionResponse.json();
+        const parkHoursData = await parkHoursResponse.json();
+
+        setAttractions(attractionData);
+
+        const todaysParkHours = {
+          opening: formatAMPM(parkHoursData[0].openingTime),
+          closing: formatAMPM(parkHoursData[0].closingTime)
+        };
+        setParkHours(todaysParkHours);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   function formatAMPM(date) {
     const parsedDate = new Date(date);
