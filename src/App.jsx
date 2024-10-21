@@ -21,10 +21,18 @@ function App() {
     var ampm = hours >= 12 ? 'pm' : 'am';
     hours = hours % 12;
     hours = hours ? hours : 12; // the hour '0' should be '12'
-    minutes = minutes < 10 ? '0'+minutes : minutes;
+    minutes = minutes < 10 ? '0' + minutes : minutes;
     var strTime = hours + ':' + minutes + ampm;
     return strTime;
-  } 
+  }
+
+  function filterAttractionsByNames(attractions, names) {
+    return attractions.filter(attraction =>
+      names.some(name => attraction.name.toLowerCase().includes(name.toLowerCase()))
+    );
+  }
+
+  const filteredAttractions = filterAttractionsByNames(attractions, ["Space Mountain", "Haunted Mansion Holiday", "Millennium Falcon: Smugglers Run", "Star Wars: Rise of the Resistance", "Big Thunder Mountain Railroad"]);
 
   // alternating attraction background colors array
   const backgroundColors = ['light', 'dark'];
@@ -34,7 +42,7 @@ function App() {
       <Header />
       <ParkHours hours={parkHours} />
       <AttractionsHeader />
-      {attractions
+      {filteredAttractions
         .filter(attraction => attraction.waitTime && attraction.meta.type === 'ATTRACTION')
         .map((attraction, index) => <Attraction key={attraction.id} name={attraction.name} time={attraction.waitTime} color={backgroundColors[index % backgroundColors.length]} />)
       }
