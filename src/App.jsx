@@ -26,10 +26,13 @@ function App() {
   function filterAttractionsByNames(attractions, names) {
     return attractions.filter(attraction =>
       names.some(name => attraction.name.toLowerCase().includes(name.toLowerCase()))
-    );
+    ).map(attraction => ({
+      ...attraction,
+      waitTime: attraction.waitTime === null ? '∞' : attraction.waitTime
+    }));
   }
 
-  const filteredAttractions = filterAttractionsByNames(attractions, ["Space Mountain", "Haunted Mansion Holiday", "Millennium Falcon: Smugglers Run", "Star Wars: Rise of the Resistance", "Big Thunder Mountain Railroad"]);
+  const filteredAttractions = filterAttractionsByNames(attractions, ["Haunted", "Space Mountain", "Indiana Jones", "Pirates of the Caribbean"]);
 
   // alternating attraction background colors array
   const backgroundColors = ['light', 'dark'];
