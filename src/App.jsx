@@ -32,7 +32,7 @@ function App() {
     }));
   }
 
-  const filteredAttractions = filterAttractionsByNames(attractions, ["Haunted", "Space Mountain", "Indiana Jones", "Pirates of the Caribbean"]);
+  const filteredAttractions = filterAttractionsByNames(attractions, ["Haunted", "Space Mountain", "Indiana Jones", "Pirates of the Caribbean", "Peter Pan"]);
 
   // alternating attraction background colors array
   const backgroundColors = ['light', 'dark'];
