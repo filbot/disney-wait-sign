@@ -18,8 +18,8 @@ function App() {
     const fetchData = async () => {
       try {
         const [attractionResponse, parkHoursResponse] = await Promise.all([
-          fetch('https://api.themeparks.wiki/preview/parks/DisneylandResortMagicKingdom/waittime'),
-          fetch('https://api.themeparks.wiki/preview/parks/DisneylandResortMagicKingdom/calendar')
+          fetch('https://corsproxy.io/?https://api.themeparks.wiki/preview/parks/DisneylandResortMagicKingdom/waittime'),
+          fetch('https://corsproxy.io/?https://api.themeparks.wiki/preview/parks/DisneylandResortMagicKingdom/calendar')
         ]);
 
         const attractionData = await attractionResponse.json();
