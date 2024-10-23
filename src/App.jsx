@@ -4,15 +4,10 @@ import Header from './Components/Header';
 import ParkHours from './Components/ParkHours';
 import AttractionsHeader from './Components/AttractionsHeader';
 import Attraction from './Components/Attraction';
-import dummyParkHours from './dummy-park-hours.json';
-import dummyWaitTimes from './dummy-wait-times.json';
 
 function App() {
-  const [attractions, setAttractions] = useState(dummyWaitTimes);
-  const [parkHours, setParkHours] = useState({
-    opening: formatAMPM(dummyParkHours[0].openingTime),
-    closing: formatAMPM(dummyParkHours[0].closingTime)
-  });
+  const [attractions, setAttractions] = useState([]);
+  const [parkHours, setParkHours] = useState({});
 
   useEffect(() => {
     const fetchData = async () => {
@@ -38,6 +33,12 @@ function App() {
     };
 
     fetchData();
+
+    // Set up interval to fetch data every minute
+    const intervalId = setInterval(fetchData, 60000); // 60000 ms = 1 minute
+
+    // Clean up interval on component unmount
+    return () => clearInterval(intervalId);
   }, []);
 
   function formatAMPM(date) {
