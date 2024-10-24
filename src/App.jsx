@@ -50,16 +50,25 @@ function App() {
     }).format(parsedDate);
   }
 
-  function filterAttractionsByNames(attractions, names) {
-    return attractions.filter(attraction =>
-      names.some(name => attraction.name.toLowerCase().includes(name.toLowerCase()))
-    ).map(attraction => ({
-      ...attraction,
-      waitTime: attraction.waitTime === null ? '∞' : attraction.waitTime
-    }));
+  // function filterAttractionsByNames(attractions, names) {
+  //   return attractions.filter(attraction =>
+  //     names.some(name => attraction.name.toLowerCase().includes(name.toLowerCase()))
+  //   ).map(attraction => ({
+  //     ...attraction,
+  //     waitTime: attraction.waitTime === null ? '∞' : attraction.waitTime
+  //   }));
+  // }
+
+  // const filteredAttractions = filterAttractionsByNames(attractions, ["Haunted", "Space Mountain", "Indiana Jones", "Pirates of the Caribbean", "Peter Pan"]);
+
+  function getTopFiveAttractions(attractions) {
+    return attractions
+      .filter(attraction => attraction.waitTime !== null && attraction.waitTime !== '∞')
+      .sort((a, b) => b.waitTime - a.waitTime)
+      .slice(0, 5);
   }
 
-  const filteredAttractions = filterAttractionsByNames(attractions, ["Haunted", "Space Mountain", "Indiana Jones", "Pirates of the Caribbean", "Peter Pan"]);
+  const topFiveAttractions = getTopFiveAttractions(attractions);
 
   // alternating attraction background colors array
   const backgroundColors = ['light', 'dark'];
@@ -69,10 +78,9 @@ function App() {
       <Header />
       <ParkHours hours={parkHours} />
       <AttractionsHeader />
-      {filteredAttractions
-        .filter(attraction => attraction.waitTime && attraction.meta.type === 'ATTRACTION')
-        .map((attraction, index) => <Attraction key={attraction.id} name={attraction.name} time={attraction.waitTime} color={backgroundColors[index % backgroundColors.length]} />)
-      }
+      {topFiveAttractions.map((attraction, index) => (
+        <Attraction key={attraction.id} name={attraction.name} time={attraction.waitTime} color={backgroundColors[index % backgroundColors.length]} />
+      ))}
     </div>
   );
 }
