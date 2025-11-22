@@ -61,14 +61,21 @@ function App() {
 
   // const filteredAttractions = filterAttractionsByNames(attractions, ["Haunted", "Space Mountain", "Indiana Jones", "Pirates of the Caribbean", "Peter Pan"]);
 
-  function getTopFiveAttractions(attractions) {
-    return attractions
-      .filter(attraction => attraction.waitTime !== null && attraction.waitTime !== '∞')
+  function getAttractions(attractions, count = 7, collection = null) {
+    let filtered = attractions.filter(attraction => attraction.waitTime !== null && attraction.waitTime !== '∞');
+
+    if (collection) {
+      filtered = filtered.filter(attraction =>
+        collection.some(name => attraction.name.toLowerCase().includes(name.toLowerCase()))
+      );
+    }
+
+    return filtered
       .sort((a, b) => b.waitTime - a.waitTime)
-      .slice(0, 5);
+      .slice(0, count);
   }
 
-  const topFiveAttractions = getTopFiveAttractions(attractions);
+  const displayedAttractions = getAttractions(attractions);
 
   // alternating attraction background colors array
   const backgroundColors = ['light', 'dark'];
@@ -78,7 +85,7 @@ function App() {
       <Header />
       <ParkHours hours={parkHours} />
       <AttractionsHeader />
-      {topFiveAttractions.map((attraction, index) => (
+      {displayedAttractions.map((attraction, index) => (
         <Attraction key={attraction.id} name={attraction.name} time={attraction.waitTime} color={backgroundColors[index % backgroundColors.length]} />
       ))}
     </div>
