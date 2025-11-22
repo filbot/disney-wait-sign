@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'Mouse';
-  src: url('./assets/startedbyamouse.ttf')  format('truetype')
+	font-family: 'Mouse';
+	src: url('./assets/startedbyamouse.ttf') format('truetype')
 }
 
 @font-face {
-  font-family: 'BarcelonaBold';
-  src: url('./assets/BarcelonaBold.ttf')  format('truetype')
+	font-family: 'BarcelonaBold';
+	src: url('./assets/BarcelonaBold.ttf') format('truetype')
 }
 
 body {
@@ -23,7 +23,7 @@ header {
 	color: #2a523d;
 	line-height: normal;
 	padding: 1rem;
-	box-shadow: 0px 11px 27px -4px rgba(0,0,0,0.35);
+	box-shadow: 0px 11px 27px -4px rgba(0, 0, 0, 0.35);
 
 	img {
 		max-width: 352px;
@@ -31,10 +31,10 @@ header {
 }
 
 .park-hours-container {
-    padding: 1rem 1rem;
-    box-shadow: 0px 11px 27px -4px rgba(0,0,0,0.35);
-    color:  #fff;
-    font-family: 'BarcelonaBold';
+	padding: 0.75rem 1rem;
+	box-shadow: 0px 11px 27px -4px rgba(0, 0, 0, 0.35);
+	color: #fff;
+	font-family: 'BarcelonaBold';
 }
 
 .park-hours-container .green-container {
@@ -43,18 +43,19 @@ header {
 	background-size: contain;
 	background-repeat: no-repeat;
 	display: flex;
-    justify-content: space-between;
-    padding: 0 3rem;
-    align-items: center;
+	justify-content: space-between;
+	padding: 0 3rem;
+	padding-right: 0;
+	align-items: center;
 }
 
 .time-container {
 	font-size: 2rem;
-    line-height: 2.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	line-height: 2.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .park-hours-container .title {
@@ -64,19 +65,19 @@ header {
 .attractions-header-container {
 	height: 5rem;
 	display: flex;
-    justify-content: space-between;
-    padding: 0 2rem;
-    color: white;
+	justify-content: space-between;
+	padding: 0 2rem;
+	color: white;
 	font-family: 'BarcelonaBold';
 	color: #2a523d;
 
-	box-shadow: 0px 11px 27px -4px rgba(0,0,0,0.35);
+	box-shadow: 0px 11px 27px -4px rgba(0, 0, 0, 0.35);
 }
 
 .attraction-header-title {
 	display: flex;
-    justify-content: space-around;
-    align-items: center;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .attraction-header-title .title-text {
@@ -102,10 +103,10 @@ header {
 }
 
 .attraction-container {
-    padding: 1rem 1rem;
-    box-shadow: 0px 11px 27px -4px rgba(0,0,0,0.35);
-    color:  #fff;
-    font-family: 'BarcelonaBold';
+	padding: 15px 20px;
+	box-shadow: 0px 11px 27px -4px rgba(0, 0, 0, 0.35);
+	color: #fff;
+	font-family: 'BarcelonaBold';
 }
 
 .attraction-container .green-container {
@@ -113,9 +114,9 @@ header {
 	background-size: contain;
 	background-repeat: no-repeat;
 	display: flex;
-    justify-content: space-between;
-    padding: 0 3rem;
-    align-items: center;
+	justify-content: space-between;
+	padding: 0 2rem;
+	align-items: center;
 }
 
 .attraction-container .green-container.light {
@@ -136,11 +137,11 @@ header {
 .attraction-container .time-container {
 	margin-left: 3rem;
 	font-size: 2rem;
-    line-height: 2.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	line-height: 2.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .attraction-container .time {
