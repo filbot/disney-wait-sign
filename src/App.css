@@ -44,7 +44,7 @@ header {
 	background-repeat: no-repeat;
 	display: flex;
 	justify-content: space-between;
-	padding: 0 3rem;
+	padding-left: 2rem;
 	padding-right: 0;
 	align-items: center;
 }
@@ -56,6 +56,7 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	width: 140px;
 }
 
 .park-hours-container .title {
@@ -66,7 +67,7 @@ header {
 	height: 5rem;
 	display: flex;
 	justify-content: space-between;
-	padding: 0 2rem;
+	padding: 0 20px;
 	color: white;
 	font-family: 'BarcelonaBold';
 	color: #2a523d;
@@ -95,6 +96,7 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	width: 140px;
 }
 
 .attraction-header-subtitle .top,
@@ -115,7 +117,7 @@ header {
 	background-repeat: no-repeat;
 	display: flex;
 	justify-content: space-between;
-	padding: 0 2rem;
+	padding-left: 2rem;
 	align-items: center;
 }
 

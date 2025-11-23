@@ -1,10 +1,17 @@
-import logo from '../assets/disneyland-logo.svg'; // Adjust the path as necessary
+import logo from '../assets/disneyland-logo.svg';
+import audio from '../assets/audio.mp3';
+import LoopingImageAudio from '../Components/Audio';
 
 const Header = () => {
   return (
     <header>
-      <img src={logo} alt="Disneyland Logo" />
+      <LoopingImageAudio
+        imgSrc={logo}
+        audioSrc={audio}
+        alt="Disneyland Logo"
+      />
     </header>
+
   );
 }
 
