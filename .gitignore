@@ -26,4 +26,4 @@ dist-ssr
 .env*.local
 3D Models
 Disneyland Sign Recon
-Assets
+/Assets
